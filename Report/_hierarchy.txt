@@ -1,0 +1,51 @@
+                     +----------------+
+                     |     Orang      |   <- Kelas dasar (superclass)
+                     |----------------|
+                     | - nama         |
+                     | - umur         |
+                     |----------------|
+                     | + Aktivitas()  |  (virtual)
+                     | + InfoOrang()  |
+                     +-------+--------+
+                             |
+          +------------------+------------------+
+          |                                     |
++---------v---------+               +-----------v-----------+
+|      Pasien       |               |     TenagaMedis        |
+|-------------------|               |-----------------------|
+| - keluhan         |               | - spesialisasi        |
+|-------------------|               |-----------------------|
+| + CekKeluhan()    |               | + CekSpesialis()      |
+| + Aktivitas()     |               | + Aktivitas()         |
++---+-----------+---+               +-------+---------------+
+    |           |                           |
+    |           |              +------------+------------+
+    |           |              |                         |
++---v-----------+ |       +-----v------+           +------v-----+
+|  PasienAnak   | |      |   Dokter   |           |  Perawat   |
+|---------------| |      |------------|           |------------|
+| + Menangis()  | |      |+ Diagnosa()|           |+ CekPasien()|
+| + Aktivitas() | |      |+ Aktivitas()|           |+ Aktivitas()|
++---------------+ |      +------------+           +------------+
+                  |
+      +-----------v-----------+
+      |     PasienDewasa      |
+      |-----------------------|
+      | + Konsultasi()        |
+      | + Aktivitas()         |
+      +-----------------------+
+
++------------------------------------------------------------------+
+|  Kelas RumahSakit                                                |
+|------------------------------------------------------------------|
+|  - daftarOrang : List<Orang>                                     |
+|------------------------------------------------------------------|
+|  + TambahOrang(Orang orang)                                      |
+|  + DaftarOrang()  -> menampilkan semua orang di rumah sakit      |
++------------------------------------------------------------------+
+
+Keterangan:
+- Semua subclass mewarisi properti Nama dan Umur dari kelas Orang.
+- Method Aktivitas() di-override di setiap subclass -> polymorphism.
+- Kelas RumahSakit menyimpan koleksi bertipe Orang sehingga dapat menampung
+  objek Dokter, Perawat, PasienAnak, dan PasienDewasa secara bersama-sama.

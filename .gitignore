@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+*.user
+Report/output.txt
+Report/report.html
+Report/inspect_docx.py
+Report/inspect_docx2.py
+Report/inspect_docx3.py
