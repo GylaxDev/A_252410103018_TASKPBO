@@ -93,8 +93,8 @@ def fill_identity(doc, label, value):
 
 fill_identity(doc, "Nama", "Vincent Alexander")
 fill_identity(doc, "NIM", "252410103018")
+fill_identity(doc, "Link Repository GitHub", "https://github.com/GylaxDev/A_252410103018_TASKPBO")
 # Kelas sudah terisi 'A' pada template -> tidak diubah
-# Link Repository GitHub sengaja dibiarkan kosong sesuai permintaan
 
 for i, (n, ans) in enumerate(ANSWERS):
     table = doc.tables[i]

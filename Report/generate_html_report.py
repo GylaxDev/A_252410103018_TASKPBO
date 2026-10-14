@@ -278,8 +278,8 @@ H.append("""
   </table>
   <div class="foot">Dibuat dengan Visual Studio / .NET SDK 10 &nbsp;&bull;&nbsp;
   Bahasa pemrograman C#<br>
-  Nama Repository: KELAS_NIM_TASKPBO (public) &nbsp;&bull;&nbsp;
-  Link Pengumpulan: https://forms.gle/5KVcRH9JYByq7soc8</div>
+  Repository: https://github.com/GylaxDev/A_252410103018_TASKPBO (public)
+  &nbsp;&bull;&nbsp; Link Pengumpulan: https://forms.gle/5KVcRH9JYByq7soc8</div>
 </div>
 """)
 
@@ -366,9 +366,10 @@ subclass, koleksi Orang pada kelas RumahSakit, serta method Main() yang mendemon
 pembuatan objek, penambahan objek, penampilan data, polymorphism, dan pemanggilan method
 khusus. Demonstrasi untuk menjawab seluruh pertanyaan (Soal 1&ndash;6) juga disertakan di
 dalam program dan ditampilkan pada output BAB III laporan ini.</p>
-<p>Project diunggah ke repository GitHub dengan nama <b>KELAS_NIM_TASKPBO</b> dengan akses
-<b>public</b> sesuai instruksi pengumpulan, dan modul disimpan dalam format PDF agar siap
-dikumpulkan melalui tautan: https://forms.gle/5KVcRH9JYByq7soc8</p>""")
+<p>Project diunggah ke repository GitHub <b>A_252410103018_TASKPBO</b> dengan akses
+<b>public</b> sesuai instruksi pengumpulan (format KELAS_NIM_TASKPBO):
+https://github.com/GylaxDev/A_252410103018_TASKPBO, dan modul disimpan dalam format PDF agar
+siap dikumpulkan melalui tautan: https://forms.gle/5KVcRH9JYByq7soc8</p>""")
 
 H.append("</body></html>")
 

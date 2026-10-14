@@ -39,4 +39,9 @@ dotnet run
 Laporan lengkap (kode, output, jawaban soal) tersedia di:
 `Report/Laporan_Tugas_PBO_SistemRumahSakit.pdf`
 
-Repository: `KELAS_NIM_TASKPBO` (public)
+## Repository
+
+https://github.com/GylaxDev/A_252410103018_TASKPBO (public)
+
+Nama repository: `A_252410103018_TASKPBO` (format: KELAS_NIM_TASKPBO)
+
