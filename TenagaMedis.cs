@@ -1,8 +1,5 @@
 namespace SistemRumahSakit;
 
-/// <summary>
-/// Kelas TenagaMedis mewarisi kelas Orang.
-/// </summary>
 public class TenagaMedis : Orang
 {
     public string Spesialisasi { get; set; }
@@ -13,9 +10,6 @@ public class TenagaMedis : Orang
         Spesialisasi = spesialisasi;
     }
 
-    /// <summary>
-    /// Method khusus kelas TenagaMedis untuk menampilkan spesialisasi.
-    /// </summary>
     public void CekSpesialis()
     {
         Console.WriteLine($"{Nama} memiliki spesialisasi: {Spesialisasi}");

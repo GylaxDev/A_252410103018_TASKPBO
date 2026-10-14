@@ -1,8 +1,5 @@
 namespace SistemRumahSakit;
 
-/// <summary>
-/// Kelas Perawat mewarisi kelas TenagaMedis.
-/// </summary>
 public class Perawat : TenagaMedis
 {
     public Perawat(string nama, int umur, string spesialisasi)
@@ -10,9 +7,6 @@ public class Perawat : TenagaMedis
     {
     }
 
-    /// <summary>
-    /// Method khusus kelas Perawat untuk memeriksa keadaan pasien.
-    /// </summary>
     public void CekPasien(string namaPasien)
     {
         Console.WriteLine($"Perawat {Nama} ({Spesialisasi}) sedang memeriksa keadaan pasien: {namaPasien}");

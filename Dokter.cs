@@ -1,8 +1,5 @@
 namespace SistemRumahSakit;
 
-/// <summary>
-/// Kelas Dokter mewarisi kelas TenagaMedis.
-/// </summary>
 public class Dokter : TenagaMedis
 {
     public Dokter(string nama, int umur, string spesialisasi)
@@ -10,9 +7,6 @@ public class Dokter : TenagaMedis
     {
     }
 
-    /// <summary>
-    /// Method khusus kelas Dokter untuk mendiagnosa pasien.
-    /// </summary>
     public void Diagnosa(string namaPasien)
     {
         Console.WriteLine($"Dokter {Nama} ({Spesialisasi}) sedang mendiagnosa pasien: {namaPasien}");
